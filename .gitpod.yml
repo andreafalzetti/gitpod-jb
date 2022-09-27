@@ -1,6 +1,6 @@
 jetbrains:
   plugins:
-    - com.intellij.appcode.kmm
+    - com.intellij.selenium
 #     - io.kanro.idea.plugin.protobuf
   # intellij:
   #   plugins:
