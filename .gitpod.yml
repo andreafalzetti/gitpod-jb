@@ -1,6 +1,6 @@
 jetbrains:
   plugins:
-    - com.github.beansoftapp.reatnative.idea
+    - io.kanro.idea.plugin.protobuf
   # intellij:
   #   plugins:
   #     - io.kanro.idea.plugin.protobuf
