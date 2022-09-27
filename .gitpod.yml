@@ -1,6 +1,7 @@
 jetbrains:
   plugins:
-    - io.kanro.idea.plugin.protobuf
+    - com.intellij.appcode.kmm
+#     - io.kanro.idea.plugin.protobuf
   # intellij:
   #   plugins:
   #     - io.kanro.idea.plugin.protobuf
