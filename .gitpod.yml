@@ -3,4 +3,4 @@ jetbrains:
     - com.intellij.selenium
 
   intellij:
-    vmoptions: -Dhttp.proxyHost=localhost -Dhttp.proxyPort=2019 -Dhttp.nonProxyHosts="localhost|host.example.com"    
+    vmoptions: -Dhttp.proxyHost=localhost -Dhttp.proxyPort=2019 -Dhttp.nonProxyHosts="localhost|gitpod.io"
