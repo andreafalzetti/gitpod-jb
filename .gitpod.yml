@@ -1,7 +1,6 @@
 jetbrains:
   plugins:
     - com.intellij.selenium
-#     - io.kanro.idea.plugin.protobuf
-  # intellij:
-  #   plugins:
-  #     - io.kanro.idea.plugin.protobuf
+
+  intellij:
+    vmoptions: -Dhttp.proxyHost=webcache.example.com -Dhttp.proxyPort=8080 -Dhttp.nonProxyHosts="localhost|host.example.com"    
