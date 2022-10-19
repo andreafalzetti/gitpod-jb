@@ -3,5 +3,6 @@ jetbrains:
     - com.intellij.selenium
 
   intellij:
-    vmoptions: -Didea.plugin.hosts="xxxplugins.jetbrains.com"
+    vmoptions: -Didea.plugins.host="xxxplugins.jetbrains.com"  
+#    vmoptions: -Didea.plugin.hosts="xxxplugins.jetbrains.com"
 #    vmoptions: -Dhttp.proxyHost=localhost -Dhttp.proxyPort=2019 -Dhttp.nonProxyHosts="localhost|gitpod.io|plugins.jetbrains.com"
