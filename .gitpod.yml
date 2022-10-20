@@ -10,4 +10,8 @@ jetbrains:
 
 tasks:
   - name: Setup IDEA
-    command: cp ./custom-idea-settings/updates.xml /workspace/.config/JetBrains/RemoteDev-IU/_workspace_gitpod-jb/options/
+    command: |
+      REPO_NAME=$(basename `git rev-parse --show-toplevel`)
+      IDEA_OPTIONS_DIR="/workspace/.config/JetBrains/RemoteDev-IU/_workspace_${REPO_NAME}/options/"
+      mkdir -p "${IDEA_OPTIONS_DIR}"
+      cp ./custom-idea-settings/updates.xml "${IDEA_OPTIONS_DIR}"
