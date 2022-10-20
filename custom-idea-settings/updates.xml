@@ -1,0 +1,8 @@
+<application>
+  <component name="UpdatesConfigurable">
+    <pluginHosts>
+      <item value="https://custom.registry.example.com/updatePlugins.xml" />
+    </pluginHosts>
+    <option name="WHATS_NEW_SHOWN_FOR" value="222" />
+  </component>
+</application>
