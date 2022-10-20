@@ -10,4 +10,4 @@ jetbrains:
 
 tasks:
   - name: Setup IDEA
-    command: cp ./custom-idea-settings/updates.xml /workspace/.config/JetBrains/RemoteDev-IU/_workspace_gitpod-jb/options
+    command: cp ./custom-idea-settings/updates.xml /workspace/.config/JetBrains/RemoteDev-IU/_workspace_gitpod-jb/options/
