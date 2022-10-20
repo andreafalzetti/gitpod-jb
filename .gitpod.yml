@@ -1,8 +1,9 @@
 jetbrains:
   plugins:
     - com.intellij.selenium
+    - aws.toolkit
 
-  intellij:
-    vmoptions: -Dhttp.proxyHost=localhost -Dhttp.proxyPort=2019 -Dhttp.nonProxyHosts="localhost|gitpod.io|plugins.jetbrains.com"  
+#  intellij:
+#    vmoptions: -Dhttp.proxyHost=localhost -Dhttp.proxyPort=2019 -Dhttp.nonProxyHosts="localhost|gitpod.io|plugins.jetbrains.com"  
 #    vmoptions: -Didea.plugins.host="xxxplugins.jetbrains.com"  
 #    vmoptions: -Didea.plugin.hosts="xxxplugins.jetbrains.com"
