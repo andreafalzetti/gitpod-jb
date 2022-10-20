@@ -3,13 +3,13 @@ jetbrains:
     - com.intellij.selenium
     - aws.toolkit
 
-  intellij:
-    vmoptions: -Didea.plugins.host="https://3000-andreafalze-gitpodjbcus-8b8bbp3yk9w.ws-eu71.gitpod.io/updatePlugins.xml"  
+#  intellij:
+#    vmoptions: -Didea.plugins.host="https://3000-andreafalze-gitpodjbcus-8b8bbp3yk9w.ws-eu71.gitpod.io/updatePlugins.xml"  
 #    vmoptions: -Dhttp.proxyHost=localhost -Dhttp.proxyPort=2019 -Dhttp.nonProxyHosts="localhost|gitpod.io|plugins.jetbrains.com"  
 #    vmoptions: -Didea.plugins.host="xxxplugins.jetbrains.com"  
 
 tasks:
-  - name: Setup IDEA
+  - name: Setup custom registry
     command: |
       REPO_NAME=$(basename `git rev-parse --show-toplevel`)
       IDEA_OPTIONS_DIR="/workspace/.config/JetBrains/RemoteDev-IU/_workspace_${REPO_NAME}/options/"
